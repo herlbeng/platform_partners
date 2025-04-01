@@ -1,0 +1,179 @@
+[
+  {
+    "name": "id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "jobNumber",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "projectId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "customerId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "locationId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "jobStatus",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "completedOn",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "businessUnitId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "jobTypeId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "priority",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "campaignId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "summary",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "customFields",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "appointmentCount",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "firstAppointmentId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lastAppointmentId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "recallForId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "warrantyId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+      "name": "jobGeneratedLeadSource",
+      "type": "RECORD",
+      "mode": "NULLABLE",
+      "fields": [
+          {
+              "name": "jobId",
+              "type": "INTEGER",
+              "mode": "NULLABLE"
+          },
+          {
+              "name": "employeeId",
+              "type": "INTEGER",
+              "mode": "NULLABLE"
+          }
+      ]
+  },
+  {
+    "name": "noCharge",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "notificationsEnabled",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "createdOn",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "createdById",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "modifiedOn",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "tagTypeIds",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "leadCallId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "bookingId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "soldById",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "externalData",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },   
+  {
+    "name": "customerPo",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },   
+  {
+    "name": "invoiceId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },   
+  {
+    "name": "membershipId",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },   
+  {
+    "name": "total",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  }
+]
