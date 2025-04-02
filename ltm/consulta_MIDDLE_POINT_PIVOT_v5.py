@@ -23,7 +23,7 @@ ltm_fields = [
     "svc_prj_avg_usd_new_cust","svc_prj_avg_usd_repeat_cust","svc_prj_avg_usd_total"
 ]
 
-ltm_fields_array = [
+ltm_original = [
     ('revenue_new_cust','Revenue','Revenue New Cust'),
     ('revenue_ncust__trend','Revenue','Revenue NCust  Trend'),
     ('revenue_repeat_cust','Revenue','Revenue Repeat Cust'),
@@ -129,6 +129,61 @@ ltm_fields_array = [
     ('svc_prj_avg_usd_new_cust','SVC PRJ AVG $','SVC PRJ AVG $ New Cust'),
     ('svc_prj_avg_usd_repeat_cust','SVC PRJ AVG $','SVC PRJ AVG $ Repeat Cust'),
     ('svc_prj_avg_usd_total','SVC PRJ AVG $','SVC PRJ AVG $ Total')
+]
+
+# Lista temporal para el 02/04/2025
+ltm_fields_array = [      
+    ('revenue_new_cust','Revenue','Revenue New Cust'),
+    ('revenue_ncust__trend','Revenue','Revenue NCust  Trend'),
+    ('revenue_repeat_cust','Revenue','Revenue Repeat Cust'),
+    ('revenue_rcust__trend','Revenue','Revenue RCust  Trend'),
+    ('revenue_demand','Revenue','Revenue Demand'),
+    ('revenue_maint','Revenue','Revenue Maint'),
+    ('revenue_estimates','Revenue','Revenue Estimates'),
+    ('revenue_projects','Revenue','Revenue Projects'),
+    ('revenue_total','Revenue','Revenue TOTAL'),
+    ('revenue_pace','Revenue','Revenue PACE'),
+    ('revenue_rev_trend','Revenue','Revenue Rev Trend'),
+    ('single_jobs_new_cust','Single Jobs','Single Jobs New Cust'),
+    ('single_jobs_ncust__trend','Single Jobs','Single Jobs NCust  Trend'),
+    ('single_jobs_new_cust_ib','Single Jobs','Single Jobs New Cust IB'),
+    ('single_jobs_new_cust_ob','Single Jobs','Single Jobs New Cust OB'),
+    ('single_jobs_r_cust_ob','Single Jobs','Single Jobs R Cust OB'),
+    ('single_jobs_r_cust_ib','Single Jobs','Single Jobs R Cust IB'),
+    ('single_jobs_r_cust_ib_pace','Single Jobs','Single Jobs R Cust IB PACE'),
+    ('single_jobs_r_ib_trend','Single Jobs','Single Jobs R IB Trend'),
+    ('single_jobs_repeat_cust','Single Jobs','Single Jobs Repeat Cust'),
+    ('single_jobs_demand','Single Jobs','Single Jobs Demand'),
+    ('single_jobs_maint','Single Jobs','Single Jobs Maint'),
+    ('single_jobs_total','Single Jobs','Single Jobs Total'),
+    ('single_jobs_pace','Single Jobs','Single Jobs PACE'),
+    ('single_jobs_sj_trend','Single Jobs','Single Jobs SJ Trend'),
+    ('gba_new_cust','GBA','GBA New Cust'),
+    ('gba_r_cust','GBA','GBA Repeat Cust'),
+    ('gba_demand','GBA','GBA Demand'),
+    ('gba_maint','GBA','GBA Maint'),
+    ('gba_actual','GBA','GBA actual'),
+    ('gba_pace','GBA','GBA pace'),
+    ('gba_trend','GBA','GBA Trend'),
+    ('opportunity_to_pct_new_cust','Opportunity TO %','Opportunity TO % New Cust'),
+    ('opportunity_to_pct_repeat_cust','Opportunity TO %','Opportunity TO % Repeat Cust'),
+    ('opportunity_to_pct_demand','Opportunity TO %','Opportunity TO % Demand'),
+    ('opportunity_to_pct_maint','Opportunity TO %','Opportunity TO % Maint'),
+    ('opportunity_to_pct_est','Opportunity TO %','Opportunity TO % Est'),
+    ('opportunity_to_pct_total','Opportunity TO %','Opportunity TO % Total'),
+    ('to_conversion_pct_new_cust','TO Conversion %','TO Conversion % New Cust'),
+    ('to_conversion_pct_repeat_cust','TO Conversion %','TO Conversion % Repeat Cust'),
+    ('to_conversion_pct_demand','TO Conversion %','TO Conversion % Demand'),
+    ('to_conversion_pct_maint','TO Conversion %','TO Conversion % Maint'),
+    ('to_conversion_pct_total','TO Conversion %','TO Conversion % Total'),
+    ('conversion_usd_avg_new_cust','Conversion $AVG','Conversion $AVG New Cust'),
+    ('conversion_usd_avg_repeat_cust','Conversion $AVG','Conversion $AVG Repeat Cust'),
+    ('conversion_usd_avg_demand','Conversion $AVG','Conversion $AVG Demand'),
+    ('conversion_usd_avg_maint','Conversion $AVG','Conversion $AVG Maint'),
+    ('conversion_usd_avg_total','Conversion $AVG','Conversion $AVG Total'),
+    ('af_prj_avg_usd_new_cust','AF PRJ AVG $','AF PRJ AVG $ New Cust'),
+    ('af_prj_avg_usd_repeat_cust','AF PRJ AVG $','AF PRJ AVG $ Repeat Cust'),
+    ('af_prj_avg_usd_total','AF PRJ AVG $','AF PRJ AVG $ Total'),
 ]
 
 union_queries = []
